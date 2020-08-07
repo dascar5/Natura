@@ -3,8 +3,8 @@
 Work in progress. 
 Add your DB info, JWT token and email server in config.env
 
-npm i, then start it with npm start
-Don't forget to run the parcel script found package.json 
+npm i, then start it with npm start.
+ Don't forget to run the parcel script found package.json 
 
 Reviews, users and tour data is generated from DB. Login system done. 
 
