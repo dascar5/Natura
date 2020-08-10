@@ -1,5 +1,4 @@
 # Natura
-
 Work in progress. 
 Add your DB info, JWT token and email server in config.env
 
