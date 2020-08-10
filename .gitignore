@@ -1,2 +1,5 @@
 /dev-data
 /text.txt
+/node-modules
+node_modules
+.cache

@@ -17,7 +17,11 @@ Router.use(authController.protect);
 
 Router.patch('/updateMyPassword', authController.updatePassword);
 Router.get('/me', userController.getMe, userController.getUser);
-Router.patch('/updateMe', userController.updateMe);
+Router.patch(
+  '/updateMe',
+  userController.uploadUserPhoto,
+  userController.updateMe
+);
 Router.delete('/deleteMe', userController.deleteMe);
 
 //only admins can use these routes
