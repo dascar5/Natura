@@ -34,6 +34,10 @@ const upload = multer({
 
 exports.uploadUserPhoto = upload.single('photo');
 
+exports.resizeUserPhoto = (req, res, next) => {
+  if (!req.file) return next();
+};
+
 //factory handlers
 //do not update password with this
 exports.updateUser = factory.updateOne(User);
