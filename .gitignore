@@ -1,6 +1,7 @@
 /dev-data
 /text.txt
 /node-modules
+/config.env
 node_modules
 .cache
-/config.env
+
