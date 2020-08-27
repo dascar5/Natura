@@ -179,10 +179,10 @@ tourSchema.pre(/^find/, function (next) {
 //   next();
 // });
 //moze ovo, ali regex
-tourSchema.post(/^find/, function (docs, next) {
-  console.log(`Query took ${Date.now() - this.start} milliseconds!`);
-  next();
-});
+// tourSchema.post(/^find/, function (docs, next) {
+//   console.log(`Query took ${Date.now() - this.start} milliseconds!`);
+//   next();
+// });
 
 //AGGREGATION MIDDLEWARE
 //ocemo da filterujemo secret tour iz agregacije

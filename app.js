@@ -15,6 +15,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 //define view engine (template)
 app.set('view engine', 'pug');
@@ -78,6 +79,8 @@ app.use(
 //   console.log('Hello from the middleware');
 //   next(); //ovo mora da bi se zavrsio req/res cycle
 // });
+
+app.use(compression());
 
 //test middleware
 app.use((req, res, next) => {
