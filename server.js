@@ -30,22 +30,6 @@ mongoose
 //da nam kaze u kojem smo modu (dev ili prod)
 //console.log(process.env);
 
-/*
-//pravljenje dokumenta
-const testTour = new Tour({
-  name: 'The Park Camper',
-  price: 997,
-});
-//cuvanje u Mongo
-testTour
-  .save()
-  .then((doc) => {
-    console.log(doc);
-  })
-  .catch((err) => {
-    console.log('ERROR!', err);
-  });
-*/
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
   console.log('Server is up.');

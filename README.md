@@ -1,5 +1,9 @@
 # Natura
 
+A web app for booking tours, checking relevant info, etc.
+Check it here:
+https://natura-bole.herokuapp.com/
+
 Work in progress.
 Add your DB info, JWT token and email server in config.env
 
