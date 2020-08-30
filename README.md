@@ -7,9 +7,7 @@ https://natura-bole.herokuapp.com/
 Work in progress.
 Add your DB info, JWT token and email server in config.env
 
-Example account for log in is:
-user: admin@natura.io
-pass: test1234
+Signup complete, you can create your own account now.
 
 npm i, then start it with npm start.
 Don't forget to run the parcel script found in package.json
