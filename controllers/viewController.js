@@ -3,7 +3,6 @@ const User = require('../model/userModel');
 const Booking = require('../model/bookingModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
-const Booking = require('../model/bookingModel');
 
 exports.getOverview = catchAsync(async (req, res, next) => {
   // 1) get tour data from collection

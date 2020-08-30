@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { showAlert } from './alerts';
+import { showAlert } from './alert';
 
 export const signup = async (name, email, password, passwordConfirm) => {
   try {
