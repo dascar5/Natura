@@ -1,6 +1,8 @@
 # Natura
 
-A web app for booking tours, checking relevant info, etc.
+A web app for checking and booking tours, login/registration, and a fully implemented test Stripe system.
+
+
 Check it here: https://natura-bole.herokuapp.com/
 
 
